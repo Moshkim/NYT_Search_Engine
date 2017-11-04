@@ -19,8 +19,8 @@
 			</div>
 			<div class="panel-body">
 				<div class="form-group">
-					<label for="usr">Search Term:</label>
-					<input type="text" class="form-control" id="usr">
+					<label for="usrTerm">Search Term:</label>
+					<input type="text" class="form-control" id="usrTerm">
 				</div>
 				<div class="form-group">
 					<label for="sel1">Number of Records to Retrieve:</label>
@@ -31,22 +31,22 @@
 					</select>
 				</div>
 				<div class="form-group">
-					<label for="usr">Start Year(Optional):</label>
-					<input type="text" class="form-control" id="usr">
+					<label for="beginYear">Start Year(Optional):</label>
+					<input type="text" class="form-control" id="beginYear">
 				</div>
 				<div class="form-group">
-					<label for="usr">End Year(Optional):</label>
-					<input type="text" class="form-control" id="usr">
+					<label for="endYear">End Year(Optional):</label>
+					<input type="text" class="form-control" id="endYear">
 				</div>
-				<button class="btn btn-default" type="submit">Search</button>
-				<button class="btn btn-default" type="submit">Clear Results</button>
+				<button class="btn btn-default" type="submit" id="searchButton">Search</button>
+				<button class="btn btn-default" type="submit" id="clearButton">Clear Results</button>
 			</div>
 		</div>
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title">Top Articles</h3>
 			</div>
-			<div class="panel-body">
+			<div class="panel-body" id="result">
 				
 			</div>
 		</div>
